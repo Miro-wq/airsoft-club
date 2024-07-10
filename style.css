@@ -1,0 +1,16 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-size: cover;
+        background-image: url(/images/black-background-metal-wallpaper-3213bf4463cde175069da4c0c862c0ad.jpg);
+}
+
+h1 {
+        font-family: "Black Ops One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 11vw;
+        margin: 0 auto;
+        color: green;
+}
