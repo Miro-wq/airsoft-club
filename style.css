@@ -1,4 +1,4 @@
-body {
+/* body {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 20px;
@@ -6,11 +6,102 @@ body {
         background-image: url(/images/black-background-metal-wallpaper-3213bf4463cde175069da4c0c862c0ad.jpg);
 }
 
-h1 {
+.club-title {
         font-family: "Black Ops One", system-ui;
         font-weight: 400;
         font-style: normal;
-        font-size: 11vw;
+        font-size: 5vw;
         margin: 0 auto;
         color: green;
+        display: flex;
+        justify-content: center;
 }
+
+.one h2 {
+        font-family: "Black Ops One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3vw;
+        margin: 0 auto;
+        color: green;
+        position: absolute;
+        right: 30px;
+} */
+
+body {
+        background-color: black;
+        height: ;
+        font-weight: 100;
+        color: green;
+        font-family: "Black Ops One", system-ui;
+        margin: 0;
+        padding: 0;
+        background-image: url(/images/black-background-metal-wallpaper-3213bf4463cde175069da4c0c862c0ad.jpg);
+
+    }
+    
+    header {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+        background-color: #111;
+        margin: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: green;
+        padding: 10px 20px;
+        display: inline-block;
+    }
+    
+    nav ul li a:hover {
+        background-color: green;
+        color: black;
+    }
+    
+    section {
+        padding: 20px;
+        text-align: center;
+    }
+    
+    footer {
+        text-align: center;
+        /* padding: 10px; */
+        background-color: #111;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .logo {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+
+    .operator {
+        width: 37vw;
+    }
+
+    .description {
+
+    }
+    .aside {
+     /* width: fit-content; */
+    /* right: 10px; */
+    /* position: absolute; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    }
